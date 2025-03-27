@@ -1,0 +1,46 @@
+---
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+
+defaults:
+  jobs:
+    runs-on: ubuntu-latest
+  run:
+    shell: bash
+
+jobs:
+  build:
+    steps:
+      - name: checkout
+        uses: actions/checkout@v4
+      - name: setup emacs
+        uses: purcell/setup-emacs@master
+        with:
+          version: 29.4
+      - name: build site
+        run: |
+          emacs -Q --script build-site.el
+      - name: Upload static files as artifact
+        id: deployment
+        uses: actions/upload-pages-artifact@v3 # or specific "vX.X.X" version tag for this action
+        with:
+          path: "./public/"
+
+  deploy:
+    needs: build
+
+    permissions:
+      pages: write
+      id-token: write
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

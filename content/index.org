@@ -1,0 +1,6 @@
+#+options: toc:t html-postamble:nil html-preamble:nil
+#+options: html-scripts:nil html-style:nil html5-fancy:t
+#+html_doctype: html5
+#+TITLE: deathto.vc
+* This is a test!
+Let's see if this works
