@@ -4,3 +4,6 @@
 #+TITLE: deathto.vc
 * This is a test!
 Please don't show up on the production site 🥺
+
+** Articles
+- [[../2024-08-11-projects.org][projects]]
