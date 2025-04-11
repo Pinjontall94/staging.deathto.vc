@@ -1,0 +1,171 @@
+#+title: Projects
+#+description: Another project list, stuff I want to work on
+#+filetags: dev projects
+* Dev Projects
+** Pro Worker and User Tech
+*** tool to convert social media json dumps into markdown
+*** Tracker for when companies get bought out by private equity firms
+*** kthxbye.dev
+  - WARN notice push notification
+*** Unnion: Indeed for union jobs
+  - “Don’t cry at work, find your Unnion job Today”
+*** Bust 👻🚫 - Website to data mine and determine which companies are most guilty of posting ghost jobs
+*** Website to simplify opting out of forced arbitration clauses
+  - Give a central place for people to report when TOS are updated for a service (i.e. Discord), as well as a due date, and instructions to opt out
+** Cute things
+*** Guestbook in vanilla js for neocities sites
+** Likely Dastard
+*** Fruitpilled little peachcel browser extension
+*** “I like _” -> “I'm so -synonym--pilled”
+** Linux Accessibility
+*** Desky - make .desktop files with GUI!
+  - Use gendesk under the hood
+** Post-SiFive
+*** Make a build.zig/nob for C++
+*** JS emulators for historic computers
+  - pdp11.js
+  - Z1.js
+  - S360.js
+  - CONS.js (Knight Machine)
+*** Guile/Wisp Docker Container!
+  - can do this in an afternoon :)
+*** Make lisp cookbook for guile
+*** Learn Guile with Raylib
+  - make blog post
+*** SICP not scary edition (wisp)
+*** Tarot reader react native app
+*** Bouncing ball amiga peach eggplant emojis
+*** Blackjack in scheme for OOP practice
+*** Fuck Twitter clones, make a MySpace clone!
+*** Guile LSP á la Calva
+*** Shelly 🐚
+  - chat app that acts as a fish front end with the ability to drop into a small llm trained on fish & unix
+  - rationale: people are afraid of terminals but they can be friendly, and no one’s afraid of text interfaces for chat apps, so what if the terminal -was- a chat app between you and the kernel?
+  - Android keyboard style autocomplete in a bar above the keyboard
+*** Linktree react app
+*** MAT - Make a Torch (0-to-MNIST)
+*** MF - Make a Lisp but for Forth
+*** movie picker
+  - [x] MVP
+  - [_] implement discard & reshuffle
+  - Remake in React & Flutter
+*** ailita R7RS-small AI framework
+  - double function
+  - Boolean AND OR NAND NOR
+  - ???
+  - MNIST
+  - ???
+  - GGUF compliance
+  - ???
+  - MVP transformer?
+*** qxl/spice for haiku
+*** sound driver for haiku
+*** sex toy that reacts to suction at tip and/or pressure
+  - double sided
+  - define different sources and targets (vibe frequency, amplitude)
+  - Nordic nRF52
+*** Web programming stack with APL+HTMX
+  - Note: this is cursed
+  - Only do this for the meme, for the love of god
+*** Yuccalisp (8-bit LISP 1.5)
+  - Steps:
+    - GC:
+      - LFSR-based PRNG
+      - Linked list
+      - use RNG for list-structured memory (even out mem access times)
+      - Impl Cheney Algo (broken hearts)
+      - Use AI to learn these quickly
+    - Display ASCII
+    - Accept keyboard input
+    - Read-Print loop prompt
+    - Tokenizer:
+      - regexp?
+      - something simpler?
+    - Parser
+    - Eval-Apply
+** Pre-SiFive Dev Ideas
+*** Tranalytics.gay
+  - Build with streamlit and pandas
+  - Beautiful soup to scrape the prices of estradiol synthesis from chemical manufacturers
+    - Estrone
+    - Lithium Aluminum Hydride
+    - Calcium Hydride
+    - Sodium Borohydride
+  - Start with -just- β-estradiol prices and availability from the top 10 chemical manufacturers (figuring that out is its own question), then add in the precursors
+  - MVP version (0.1.0):
+    - Scrape the price of -just- estradiol powder, at -just- 1 company (Sigma or Fisher), -just- once a day
+    - Add those values to a df and display a line chart (x: time, y: price) on the home page
+  - Next Steps:
+    - Instead of adding more data, create a rest api so you can grab the df values
+    - Make a react app that displays the same chart
+    - Port the react app to mobile (android only)
+  - Version 0.2.0:
+    - Add in more manufacturers
+    - Add in precursor chemicals
+    - Find a good way to display them (maybe separate pages entirely?)
+    - Add an About Page
+    - Determine best practices for project management so I don’t get overwhelmed
+    - If it’s working well, open project up to the public, ask for things that could be done better (especially focusing on the stats/data viz side, since I’m weaker in that)
+
+*** Scrape from angel.co to see number of jobs by technology
+  - Use separate job titles (data scientist, full-stack engineer, etc.) as group factors
+  - Hone in on the ones most likely to get me a job
+  - Use selenium to input the parameters (don’t think bs4 can handle this)
+
+*** Pd.js: Pure Data reimplemented in JS with the webaudio api
+  - React
+  - Note: this would be a huge project
+
+*** Tarot app
+  - More interesting than standard cards
+  - Maybe program old Italian games that actually used them back in the day?
+
+*** arewetcoyet.com
+  - check tail call optimization of browsers
+
+*** User-friendly Array Language
+  - do to APL or J what José Valim did to Erlang
+  - Maybe just port an existing language over to an array-based core?
+
+*** React Native Pocket Operator, PK-83
+  - Keep the same interface as the PO-20 except:
+    - no game & watch display
+    - no knobs
+    - instead fill space with name & 2 sliders
+    - (maybe xy pad instead?)
+    - FM instead of 8-bit sounds
+    - Black & Grey with Teal, Peach highlights
+
+*** Other PK series
+  - PK-94 sampler
+  - PK-60 Juno
+
+*** Write a Common Lisp compiler in Rust (or zig)
+  - Definitely start with a Scheme compiler
+  - Make it a modernized superset of SBCL-compatible CL (bake in the functional stuff and nice data types from Alexandria and Serapeum)
+
+*** Insufferable "Boymoder & Blåhaj" platformer on the NES/tic-80/Pico-8
+
+*** Gameboy Color Lisp editor
+  - Pokemon style menu interface with keywords clustered into common types
+    - I/O
+    - Conditionals
+    - Def and Set\!
+    - Math
+    - Lists
+    - Recently used
+  - Global taskbar at the bottom, prompt right above that
+    - Commands
+    - Keyboard
+    - Status
+    - Options?
+  - Maybe something really terse like APL or Forth would be better?
+
+*** Create 8 bit SoC with Chisel:
+  - First prototype: model after either the Z80 or 6502, something well-documented
+
+*** Fantussy, Fantasy Console game engine for Atari 8 bit
+
+*** Snake% various programming languages
+  - how fast can you make a functioning game of snake?
+  - at least one kind of lisp, and Haskell

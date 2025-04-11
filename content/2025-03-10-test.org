@@ -1,0 +1,10 @@
+#+title: test
+#+date: <2025-03-10 14:06>
+#+description: a test to get emacs static blogging working
+#+filetags: emacs
+* Alright
+I've spent the better part of an hour basically rolling my own version of
+org-static-blog.el, so I figure I might as well give this another fair
+shot. Also a good opportunity to actually make my own CSS for this blog,
+consistent with my other sites' visual design (kinda pastel take on the FreeBSD
+or Debian TUI installers)

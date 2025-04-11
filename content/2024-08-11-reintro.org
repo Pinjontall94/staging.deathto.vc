@@ -1,0 +1,16 @@
+#+title: Reintro!
+#+date: <2024-08-11 07:10>
+#+description: A reintroduction of my personal blog with org-static-blog & RSS!
+#+filetags: blog emacs meta rss
+Hi reader! This is yet another blog update, hopefully one that shouldn't look
+too different but bring some important changes under the hood.
+
+Most notably: RSS support!
+
+* What does this mean for me reading this?
+
+It means you can use any rss reader app (and if you're on android I highly
+recommend [[https://play.google.com/store/apps/details?id=com.nononsenseapps.feeder.play&hl=en&gl=US][Feeder]], but any should work) to keep up with my posts here :)
+
+Why does that matter? It means you can get a push notification without either
+of us needing to rely on a megacorporation ;P

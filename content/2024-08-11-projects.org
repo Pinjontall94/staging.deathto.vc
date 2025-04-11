@@ -1,0 +1,78 @@
+#+title: Projects
+#+date: <2024-08-11 17:20>
+#+description: My project list, stuff I want to work on
+#+filetags: dev projects
+* Portfolio Projects (i.e. that I'm actively working on)
+-  [[https://github.com/Pinjontall94/ceilings][Ceilings]]
+  - Rustlings and Ziglings for C! 
+-  [[https://github.com/Pinjontall94/kthxbye][kthxbye.dev]]
+  - WARN notice push notification!
+  - When your company reports to the gov't that they're laying people off in 2-6mo
+  you don't have to manually check a state labor board spreadsheet or hope your
+  company laying folks off is a big enough deal it'll end up in the news --
+  you'll know /immediately./
+  - Spring Boot or Flask and PostgreSQL
+-  [[https://github.com/Pinjontall94/MF][MF]]
+  - Make a Lisp but for Forth
+-  [[https://github.com/Pinjontall94/ailita][ailita]]
+  - AI/ML Framework from scratch in Guile & R7RS-Small Scheme
+  - Frankly by the time I can work on this again, AI is probably gonna be dead, hype-wise. That being said, I /am/ still curious to learn how machine-learning works from first principles :)
+  - Milestones:
+    - double function
+    - Boolean AND OR NAND NOR
+    - ???
+    - MNIST
+    - ???
+    - GGUF compliance
+    - ???
+    - MVP transformer?
+-  [[https://github.com/Pinjontall94/guix.fish][guix.fish]]
+  - A fisher plugin to handle guix path and environment variables 
+-  [[https://github.com/Pinjontall94/awesome-koans][My Fork of ahmdrefat's Awesome-Koans]]
+
+* Tech for working people and the social good
+-  Unnion: Indeed for union jobs
+  - “Don’t cry at work, find your Unnion job Today”
+-  Bust 👻🚫
+  - Website to data mine and determine which companies are most guilty of posting ghost jobs
+-  Website to simplify opting out of forced arbitration clauses
+  - Give a central place for people to report when TOS are updated for a
+  service (i.e. Discord), as well as a due date, and instructions to
+  opt out
+-  Tracker for when companies get bought out by private equity firms
+-  Script to transcribe social media json dumps as markdown for SSGs
+  - Help folks migrate news, opinions, memories, funnies, etc. from platforms
+  vulnerable to getting "elon'd"
+  - Your blog will almost certainly outlast the "good years" of any social media
+  platform
+  - I think it's safe to say we've seen several fall victim to enshittification
+    as the VCs start to demand the companies turn a profit
+
+* Linux Accessibility
+-  Desky
+  - Make .desktop files with GUI! (how is this not a solved problem by now...)
+  - Use gendesk under the hood
+
+* Post-SiFive Projects
+-  Raylib Practice: Learn Guile-C interop with Raylib
+-  Shelly 🐚 
+  - chat app that acts as a bash front end with the ability to drop
+  into a small llm trained on bash & unix
+  - rationale: people are afraid of terminals but they can be
+  friendly!
+  - No one’s afraid of text interfaces for chat apps, so
+  what if the terminal was a chat app between you and the kernel?
+  - Android keyboard style autocomplete in a bar above the keyboard
+-  Tarot reader react native app
+-  3D graphics practice: Bouncing ball amiga peach emoji
+-  OOP practice: Blackjack in scheme
+-  Fuck Twitter clones, make a MySpace clone!
+-  Language independent SICP
+  - yaml SICP!
+-  neopostal: React Native App to blog to neocities on ur phone
+-  Guile LSP á la Calva
+-  Linktree react app
+-  MAT - Make a Torch (0-to-MNIST)
+-  movie picker
+-  qxl/spice for haiku
+-  sound driver for haiku

@@ -1,0 +1,49 @@
+#+title: Principles of Software Design for Human Beings
+#+date: <2025-03-12 11:47>
+#+description: A living document of my guiding principles in software design
+#+filetags: software, programming
+
+This will be freeform, but hopefully crystallizing into more organized thoughts.
+These principles come from careful consideration and frustration with software
+as an end user /and/ end programmer (w/r/t apis and other DSLs).
+
+* My own rules for software design
+
+** Be aware of your own biases in what's "intuitive"
+Evergreen insight from XKCD 2501: [[https://imgs.xkcd.com/comics/average_familiarity_2x.png][Average Familiarity]]
+
+This /also/ extends to what's intuitive to the cultures of computer
+programmers! 
+
+** That being said, bias usability towards non-programmers over programmers
+Within reason, ofc. Example: lisp is notoriously weird for programmers
+of traditional C-based education backgrounds, but its consistent and
+minimal syntax makes it an excellent teaching language. Traditions
+become stuck in programming culture as intuitive /based solely on
+existing tribal knowledge/. There /is/ a usability cost in designing
+for the curious non-programmer who simply wants to fix or extend
+something broken, but it's better to put that cost on the programmer
+who's already accustomed to learning new sets of language rules and
+above all...
+
+** Lower the cost of entry to tinker with your stuff!
+Making things easy for existing programmers over non-programmers
+simply makes that barrier to entry stick around longer
+
+*** CLI apps should always have help available
+
+*** Interactive CLI prompts should always have "help", "?", "quit", "exit" keywords
+These keywords should always do what you expect them to, and running
+the program should /always/ show how to get help, locally
+
+*** GUI apps should always show keyboard shortcuts on the dialog options
+
+*** GUI apps should always have a global "command-palette"
+
+** Language syntax should be simple enough to not need syntax highlighting
+The best languages are "blackboard" languages:
+- Scheme
+- Python
+- Lua
+- Clojure
+- Forth?
