@@ -10,7 +10,7 @@ as an end user /and/ end programmer (w/r/t apis and other DSLs).
 * My own rules for software design
 
 ** Be aware of your own biases in what's "intuitive"
-Evergreen insight from XKCD 2501: [[../../static/images/xkcd-2501-average-familiarity.png]]
+Evergreen insight from XKCD 2501: [[https://staging.deathto.vc/static/images/xkcd-2501-average-familiarity.png]] 
 
 This /also/ extends to what's intuitive to the cultures of computer
 programmers! 
