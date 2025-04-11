@@ -7,6 +7,6 @@ Idk I used to be a botanist 🥀👩🏼‍🔬 and now I'm a lesbian and do lis
 ** Posts
 - [[./posts/2025-03-12-principles-of-software-design-for-human-beings.org][Principles Of Software Design For Human Beings]]
 - [[./posts/2025-03-10-test.org][test]]
-- [[content/posts/2025-02-20-dev-project-ideas.org][Dev Project Ideas]]
-- [[content/posts/2024-08-11-reintro.org][Reintroduction]]
-- [[..posts/2024-08-11-projects.org][(Old) Projects List]]
+- [[./posts/2025-02-20-dev-project-ideas.org][Dev Project Ideas]]
+- [[./posts/2024-08-11-reintro.org][Reintroduction]]
+- [[./posts/2024-08-11-projects.org][Old Projects List]]
