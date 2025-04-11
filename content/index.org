@@ -2,12 +2,11 @@
 #+options: html-scripts:nil html-style:nil html5-fancy:t
 #+html_doctype: html5
 #+TITLE: deathto.vc
-* This is a test!
-Please don't show up on the production site 🥺
-
+* Bio
+Idk I used to be a botanist 🥀👩🏼‍🔬 and now I'm a lesbian and do lisp & C stuff 👩🏼‍💻🤷🏼‍♀️
 ** Posts
 - [[./posts/2025-03-12-principles-of-software-design-for-human-beings.org][Principles Of Software Design For Human Beings]]
 - [[./posts/2025-03-10-test.org][test]]
-- [[./posts/2025-02-20-dev-project-ideas.org][Dev Project Ideas]]
-- [[./posts/2024-08-11-reintro.org][Reintroduction]]
-- [[./posts/2024-08-11-projects.org][(Old) Projects List]]
+- [[content/posts/2025-02-20-dev-project-ideas.org][Dev Project Ideas]]
+- [[content/posts/2024-08-11-reintro.org][Reintroduction]]
+- [[..posts/2024-08-11-projects.org][(Old) Projects List]]
