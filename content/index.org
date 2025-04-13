@@ -12,4 +12,4 @@ Idk I used to be a botanist 🥀👩🏼‍🔬 and now I'm a lesbian and do lis
 - [[./posts/2024-08-11-projects.org][Old Projects List]]
 
 ** Links
-- [[https://github.com/Pinjontall94/staging.deathto.vc]][[source code for this site]]
+- [[https://github.com/Pinjontall94/staging.deathto.vc][source code for this site]]
