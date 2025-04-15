@@ -1,0 +1,24 @@
+* Rewrite
+I kinda wanna rewrite this site in semantic html and some classless css framework.
+Like, this is already using [[https://simplecss.org/][SimpleCSS]] for styling, which takes care of the
+default org-mode export (which is otherwise just plain html like it's 1999).
+While I do like that look, especially in a winking "I'm a backend dev,
+leave me alone" kinda way, I *am* partial to just blogging with /slightly/
+better styling. But no CSS classes, fk that noise.
+
+Some contenders:
+- [[https://simplecss.org/][SimpleCSS (aforementioned)]]
+- [[https://watercss.kognise.dev/][Water.css]]
+- [[https://picocss.com/][Pico]]
+  - Slightly more flexible/complicated, but that may be a good onramp for
+    learning more web dev from the ground up
+
+* What are you going on about, girl?
+
+Like, literally the styling in this blog is provided by one CDN link at the top of the page:
+#+begin_src html
+<link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+#+end_src
+
+And that's it, makes plain-ass html look halfway decent and gives a
+system-respecting dark mode :)

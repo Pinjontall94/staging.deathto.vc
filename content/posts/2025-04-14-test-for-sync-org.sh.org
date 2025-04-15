@@ -1,0 +1,5 @@
+#+title: Test for sync-org.sh
+#+date: <2025-04-14 20:47>
+#+description: 
+#+filetags: rsync
+Lord help me if I trust an rsync call on the first try...

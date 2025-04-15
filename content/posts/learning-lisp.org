@@ -1,0 +1,7 @@
+* Learning Lisp when you don't know programming
+
+For some reason, lisp gets the reputation of being weird and incomprehensible
+to even other computer people, so I found it surprising how...easy and
+approachable it was? Like, even compared to object oriented code that's
+considered much more typical and familiar to programmers. Idk, maybe I'm the odd
+one in seeing all the syntax and brackets

@@ -1,0 +1,33 @@
+#+title: Practical Guile Articles Brainstorm
+#+date: <2025-04-14 20:05>
+#+description: Ideas for upcoming series on practical guile programming
+#+filetags:guile scheme
+* Modules & TDD
+- srfi-64
+* loops and arrays
+- for and foreach loops
+- srfi-1 & srfi-43
+* OOP
+* date & time
+- srfi-19
+* reading and writing to files
+- Line by line operations
+* strings
+- find and replace
+- regex
+- unicode
+- slicing
+* html parsing
+* OS operations
+- Environment variables
+- Calling programs
+- Process IDs
+* Project Management
+- show the process from "I have an idea" to "this project is a package
+other people can install & run"
+- adding dependencies with autotools, guix.scm
+- start from simple ~guile app.scm~ to ~guile -L. && ,use (<module>)~
+  to ~guix install~
+* call/cc stuff
+- Making try catch from python
+- making goroutines (where the 'g' stands for 'guile' ;3)

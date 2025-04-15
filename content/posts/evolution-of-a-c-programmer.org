@@ -1,0 +1,24 @@
+#+TITLE: Evolution of a C Programmer
+* Evolution of a C Programmer
+In the same spirit as these famous posts for [[https://cspages.ucalgary.ca/~robin/class/449/Evolution.htm][haskell]] and [[https://erkin.party/blog/200715/evolution/][scheme]], I'd like to do
+the same for C, and factorial is as a good an example program as any for it.
+
+;; Studying K&R
+
+;; Studying the *original* K&R
+;; (use the old implicit int and weird argument type declarations)
+
+;; Coming from C++
+
+;; Coming from rust
+;; (stdint types only)
+
+;; Coming from assembly
+;; (only uses while loops, declares unitialized variables)
+
+;; C2x enjoyer
+
+;; Hates C, just wants to get this over with
+;; (system calls to shell commands)
+
+;; idk, abuses the macro system to make algol out of { and }
